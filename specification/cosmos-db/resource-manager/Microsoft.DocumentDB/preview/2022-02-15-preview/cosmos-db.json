@@ -8751,6 +8751,14 @@
         "id": {
           "type": "string",
           "description": "Name of the Cosmos DB SQL database"
+        },
+        "restoreParameters": {
+          "description": "The standard JSON format of a container",
+          "$ref": "#/definitions/RestoreParameters"
+        },
+        "createMode": {
+          "description": "The standard JSON format of a container",
+          "$ref": "#/definitions/CreateMode"
         }
       },
       "required": [
@@ -8793,6 +8801,14 @@
           "type": "integer",
           "format": "int64",
           "description": "Analytical TTL."
+        },
+        "restoreParameters": {
+          "description": "The standard JSON format of a container",
+          "$ref": "#/definitions/RestoreParameters"
+        },
+        "createMode": {
+          "description": "The standard JSON format of a container",
+          "$ref": "#/definitions/CreateMode"
         }
       },
       "required": [
@@ -9208,6 +9224,14 @@
         "id": {
           "type": "string",
           "description": "Name of the Cosmos DB MongoDB database"
+        },
+        "restoreParameters": {
+          "description": "The standard JSON format of a container",
+          "$ref": "#/definitions/RestoreParameters"
+        },
+        "createMode": {
+          "description": "The standard JSON format of a container",
+          "$ref": "#/definitions/CreateMode"
         }
       },
       "required": [
@@ -9236,6 +9260,14 @@
         "analyticalStorageTtl": {
           "type": "integer",
           "description": "Analytical TTL."
+        },
+        "restoreParameters": {
+          "description": "The standard JSON format of a container",
+          "$ref": "#/definitions/RestoreParameters"
+        },
+        "createMode": {
+          "description": "The standard JSON format of a container",
+          "$ref": "#/definitions/CreateMode"
         }
       },
       "required": [
